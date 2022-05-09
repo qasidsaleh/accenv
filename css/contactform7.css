@@ -1,0 +1,14 @@
+span .wpcf7-not-valid{border:3px solid #d12435!important}
+span.wpcf7-not-valid-tip{color:#f00;font-size:1em;font-weight:normal;display:block;}
+span.wpcf7-not-valid-tip{display:none!important;}
+div.wpcf7-validation-errors,div.wpcf7-acceptance-missing{border:2px solid #f7e700!important;text-align:center;}
+div.wpcf7-response-output{text-align:center;margin:2em 0.5em 1em;padding:0.5em 1em!important;color:#ff0000;background:#ffe2e2;font-weight:700;border-radius:.25rem;}
+.wpcf7-recaptcha{margin-bottom: 20px;}
+@media screen and (max-width:767px){
+	.wpcf7-recaptcha{
+		transform:scale(0.77);
+		-webkit-transform:scale(0.77);
+		transform-origin:0 0;
+		-webkit-transform-origin:0 0;
+	}
+}

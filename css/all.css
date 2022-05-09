@@ -1,0 +1,770 @@
+@import url(fonts.css);
+@import url(header.css);
+@import url(footer.css);
+@import url(common.css);
+
+.content-header{
+	padding-top: 15px;
+	padding-bottom: 15px;
+    margin-bottom: 15px;
+    min-height: 80px;
+    background-color: #fff;
+}
+.content-header .inner{
+	border-bottom:solid 3px #000;
+	padding-bottom: 15px;
+}
+.content-header h1{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.content-header a span{
+    float: left;
+    padding: 5px 0;
+}
+.content-header a span,
+.content-header a{
+    color: #337ab7;
+}
+.content-header a img{
+    margin: 0 0 0 10px;
+    opacity: 1;
+    -webkit-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    transition: all 0.25s;
+    float: left;
+}
+.content-header a:hover img {
+    opacity: 0.5;
+    -webkit-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    transition: all 0.25s;
+}
+.sharefriend .modal-dialog{
+    max-width: 430px;
+}
+.sharefriend .modal-header{
+    background: #e5e5e5;
+    padding: 5px 0 0;
+    border-bottom: 1px solid #d5d5d5;
+    border-radius: 5px 5px 0 0;
+    font-size: 1.5rem;
+    min-height: 36px;
+    font-weight: bold;
+}
+.sharefriend .modal-header h5{
+    font-size: 16px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.sharefriend .modal-header button{
+    width: 17px;
+    height: 20px;
+    padding: 0;
+    opacity: 1;
+    margin: 0 15px 0 0;
+}
+.sharefriend .modal-body span{
+    font-family:'Roboto', sans-serif;
+    font-weight:400;
+    margin-bottom: 15px;
+    display: inline-block;
+    width: 100%;
+}
+.sharefriend .modal-body label{
+    font-family:'Roboto', sans-serif;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    width: 100%;
+}
+.project-block{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.project-block ul{
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.project-block a{
+    background: #fff;
+    border: 1px solid #314E79;
+    color: #333;
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    padding: 5px 5px;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+}
+.project-block a:hover{
+    background: #314E79;
+    border: 1px solid #314E79;
+    color: #fff;
+    text-decoration: none;
+}
+.listing h5{
+    font-family:'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #1d4165;
+}
+.listing ul{
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+.sitemap.listing ul li{
+    padding-bottom: 5px;
+}
+.listing ul li a{
+    color: #337ab7;
+    text-decoration: none;
+}
+.listing ul li ul li{
+    list-style: disc;
+}
+.content-sidebar ul li{
+    margin-bottom: 10px;
+    list-style: none;
+    padding-left: 0px;
+}
+.content-sidebar ul li a{
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    background-color: #50A901;
+    text-align: center;
+    text-decoration: none;
+}
+.content-sidebar ul li a:hover{
+    background-color: #3a5273;
+    text-decoration: none;
+}
+.page-id-82 .content-sidebar ul li a{
+    background-color:  #3a5273;
+}
+.page-id-82 .content-sidebar ul li a:hover{
+    background-color:  #50A901;
+}
+.proposal  p{
+    margin-bottom: 0px;
+    padding-top: 5px;
+}
+.proposal input,
+.proposal select,
+.proposal textarea{
+    color: #333;
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 6px 5px;
+    margin-bottom: 5px;
+}
+.proposal textarea{
+    height: 70px;
+}
+.proposal input[type="checkbox"]{
+    width: auto;
+    display: inline-block;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.proposal button{
+    background: #3a5273;
+    border: none;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+}
+.proposal button:hover{
+    background-color: #50A901;
+}
+.contact a{
+    color: #337ab7;
+}
+.contact a:hover{
+    color: #23527c;
+    text-decoration: underline;
+}
+.side-nav{
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+.side-nav li{
+    list-style: none;
+    position: relative;
+}
+.side-nav li a{
+    display: block;
+    background: #6d788e;
+    color: #fff !important;
+    line-height: 30px;
+    padding: 7px 22px;
+    font-size: 16px;
+    border-bottom: solid 1px #fff;
+    position: relative;
+}
+.side-nav li a:hover{
+    background: #122743;
+    text-decoration: none;
+}
+.side-nav.color li a{
+    border-bottom: solid 3px #fff;
+}
+.side-nav.color li a:after{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 7px;
+    height: 100%;
+}
+.side-nav.color li:nth-child(1) a:after{background-color: #00ff84 !important;}
+.side-nav.color li:nth-child(2) a:after{background-color: #009133 !important;}
+.side-nav.color li:nth-child(3) a:after{background-color: #f1a116 !important;}
+.side-nav.color li:nth-child(4) a:after{background-color: #fa4301 !important;}
+.side-nav.color li:nth-child(5) a:after{background-color: #ec28bb !important;}
+.side-nav.color li:nth-child(6) a:after{background-color: #0162b7 !important;}
+.side-nav.color li.dropdown a,
+.side-nav.color li.menu-item-has-children a{
+    padding: 12px 22px 12px 35px;
+}
+.side-nav li.dropdown > a:before,
+.side-nav li.menu-item-has-children > a:before{
+    position: absolute;
+    left: 20px;
+    top: 18px;
+    border: 5px solid transparent;
+    border-left-color: #fff;
+    content: '';
+}
+.side-nav li.dropdown > a,
+.side-nav li.dropdown ul li a,
+.side-nav li.menu-item-has-children > a,
+.side-nav li.menu-item-has-children ul li a{
+    padding-left: 35px;
+}
+.side-nav li.dropdown > a.active:before,
+.side-nav li.menu-item-has-children > a.active:before{
+    top: 20px;
+    border-left-color: transparent;
+    border-top-color: #fff;
+}
+.side-nav li ul{
+    max-height: 0;
+    opacity: 0;
+    visibility: hidden;
+    z-index: -99;
+    transition: all 0.4s;
+}
+.side-nav li .active + ul,
+.side-nav.services li ul.active{
+    max-height: inherit;
+    opacity: 1;
+    visibility: visible;
+    z-index: 99;
+}
+.side-nav.services li.current_page_item a{
+    background: #50a901;
+}
+.side-nav li ul li a,
+.side-nav li a.active{
+    background: #122743;
+}
+.side-nav li ul li ul li a{
+    background: #263f62;
+}
+.color-list li{
+    display: inline-block;
+    margin-right: 14px;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+.color-list li a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 3px solid #198bec;
+    text-indent: -9999px;
+}
+.color-list li:nth-child(1) a{border-color: #198aec;}
+.color-list li:nth-child(2) a{border-color: #00ff84;}
+.color-list li:nth-child(3) a{border-color: #009133;}
+.color-list li:nth-child(4) a{border-color: #f1a116;}
+.color-list li:nth-child(5) a{border-color: #fa4301;}
+.color-list li:nth-child(6) a{border-color: #ec28bb;}
+.color-list li:nth-child(7) a{border-color: #0162b7;}
+.color-list li:nth-child(1) a.active{background: #198aec;}
+.color-list li:nth-child(2) a.active{background: #00ff84;}
+.color-list li:nth-child(3) a.active{background: #009133;}
+.color-list li:nth-child(4) a.active{background: #f1a116;}
+.color-list li:nth-child(5) a.active{background: #fa4301;}
+.color-list li:nth-child(6) a.active{background: #ec28bb;}
+.color-list li:nth-child(7) a.active{background: #0162b7;}
+.color-list li a:before{
+    content: '';
+    border: 5px solid transparent;
+    border-top-color: #337ab7;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    bottom: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+}
+.color-list li a:after{
+    position: absolute;
+    text-indent: 0;
+    left: 50%;
+    bottom: 100%;
+    margin-bottom: 10px;
+    content: attr(title);
+    background: #337ab7;
+    padding: 2px 5px;
+    transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    font-size: 12px;
+    line-height: 1.4;
+    text-transform: uppercase;
+    color: #ffff;
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    white-space: nowrap;
+}
+.color-list li a:hover:after, 
+.color-list li a:hover:before{
+    opacity: 1;
+    visibility: visible;
+}
+.courses-tabs{
+    background-color: #eee;
+    padding: 10px;
+}
+.courses-tabs .nav-tabs{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.courses-tabs .nav-tabs li{
+    width: 50%;
+    display: inline-block;
+}
+.courses-tabs .nav-tabs li a{
+    border: 0px;
+    background: #314e78;
+    font-family:'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+}
+.courses-tabs .nav-tabs li a:hover{
+    text-decoration: none;
+}
+.courses-tabs .nav-tabs li.active a{
+    background: transparent;
+    color: #333;
+    border-radius: 0;
+    pointer-events: none;
+}
+.courses-tabs .tab-content table tr td{
+    background-color: #fff;
+    padding: 10px;
+}
+.courses-tabs .tab-content h3,
+.courses-tabs .tab-content h4{
+    font-weight: bold;
+}
+.courses-tabs .tab-content ul{
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.courses-tabs form select{
+    padding: 6px 5px;
+    color: #999;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+.classes-table thead{
+    background-color: #00B1CF;
+}
+.classes-table thead th{
+    color: #fff;
+    font-weight: bold;
+}
+.classes-table tbody tr td{
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+    color: #333;
+    font-weight: normal;
+}
+.classes-table .view-details{
+    background: #50A901 url(../images/button-viewDetails.png) center left no-repeat;
+    font-size: 14px;
+    text-align: left;
+    padding: 4px 10px 7px;
+    text-align: right;
+    width: 140px;
+    border: none;
+    color: #fff;
+    display: inline-block;
+}
+.classes-table .view-details:hover{
+    background: #314E79 url(../images/button-viewDetails.png) center left no-repeat;
+    text-decoration: none;
+}
+.courses-tabs #tbl_classes_filter{
+    display: none;
+}
+.tbl-class thead th{
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+    background: #00B1CF;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+}
+.tbl-class tbody td{
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+    background: #fff;
+    color: #333;
+    font-weight: normal;
+    padding: 10px;
+}
+.tbl-class tbody td select{
+    padding: 6px 5px;
+    color: #999;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+.content-map{
+    background-color: #eee;
+}
+.content-map iframe{
+    width: 100%;
+}
+.content-map form input{
+    width: 70% !important;
+    padding: 13px 10px;
+    border: none;
+    float: left;
+}
+.content-map form button{
+    background: #3a5273;
+    border: none;
+    margin-top: 10px;
+    color: #fff;
+    font-family:'Roboto Slab', serif;
+    display: block;
+    font-size: 14px;
+    width: auto;
+    margin: 0px;
+    padding: 13px 15px;
+}
+.content-map form button:hover{
+    background: #50A901;
+}
+.class-content{
+    background-color: #eaebee;
+    padding-bottom: 1px;
+}
+.class-content .nav-pills{
+    margin-bottom: 15px !important;
+}
+.class-content .nav-pills li{
+    width: 50%;
+}
+.class-content .nav-pills li button{
+    font-family:'Roboto Slab', serif;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    background-color: #314e78;
+    color: #fff;
+    text-transform: uppercase;
+}
+.class-content .nav-pills li button.active{
+    background: transparent;
+    color: #333;
+}
+.class-content .tab-content{
+    background-color: #fff;
+    margin: 0 15px 15px 15px;
+    padding: 15px;
+}
+.class-content .tab-content p{
+    color: #333;
+    font-weight: normal;
+}
+.class-content .tab-content table thead th{
+    background: #00B1CF;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+.class-content .tab-content table tbody td{
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+    color: #333;
+    font-weight: normal
+}
+.woocommerce-cart-form table thead th{
+    background: #00B1CF;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+}
+.search-block{
+    border-bottom: solid 1px #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.search-block:last-child{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-bottom: none;
+}
+.search-block h2 a{
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #1d4165;
+}
+.requirements{
+    background-color: #eaebee;
+    padding: 10px;
+}
+.requirements-inner{
+    background-color: #fff;
+    padding: 10px;
+}
+.requirements-inner p{
+    margin-bottom: 0px;
+}
+.woocommerce-MyAccount-navigation ul{
+    padding-left: 0px;
+}
+.woocommerce-MyAccount-navigation ul li{
+    list-style: none;
+    padding-bottom: 5px;
+}
+.woocommerce-MyAccount-navigation ul li a{
+    color: #6d788e;
+    text-decoration: none;
+    font-size: 14px;
+}
+.woocommerce-MyAccount-content input.input-text,
+.woocommerce-ResetPassword input{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    width: 100%;
+    height: 30px;
+    padding: 5px 10px;
+    line-height: 20px;
+    font-size: 13px;
+    color: #000;
+    border-radius: 0;
+    margin-bottom: 7px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+}
+.woocommerce-MyAccount-content .show-password-input, .woocommerce-MyAccount-content .show-password-input{
+    top: 0 !important;
+}
+.woocommerce-MyAccount-content .woocommerce-Address{
+    width: 100%;
+}
+.woocommerce-Address-title.fixed{
+    position: relative !important;
+    background-color: transparent !important;
+}
+/*.woocommerce-MyAccount-content table.my_account_orders .button{
+    background: #50A901 url(../images/button-viewDetails.png) center left no-repeat;
+    font-size: 14px;
+    text-align: center;
+    padding: 12px 10px 12px 40px !important;
+    width: 100px;
+    border: none;
+    color: #fff;
+    display: inline-block;
+}
+.woocommerce-MyAccount-content table.my_account_orders .button:hover{
+    background: #314E79 url(../images/button-viewDetails.png) center left no-repeat !important;
+    text-decoration: none !important;
+    color: #fff !important;
+}*/
+.woocommerce-MyAccount-content table.my_account_orders .button{
+    font-family: 'Roboto', serif !important;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    padding: 6px 15px !important;
+    background-color: #0f294f !important;
+    border: solid 2px #0f294f !important;
+    color: #fff !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+}
+.woocommerce-MyAccount-content table.my_account_orders .button:hover{
+    background-color: transparent !important;
+    color: #0f294f !important;
+}
+.woocommerce-MyAccount-content .woocommerce-address-fields button,
+.woocommerce-MyAccount-content .woocommerce-EditAccountForm button,
+.woocommerce-ResetPassword button{
+    font-family: 'Roboto', serif !important;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    padding: 10px 15px !important;
+    background-color: #0f294f !important;
+    border: solid 2px #0f294f !important;
+    color: #fff !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    text-transform: capitalize;
+    margin-left: 7px !important;
+}
+.woocommerce-MyAccount-content .woocommerce-address-fields button:hover,
+.woocommerce-MyAccount-content .woocommerce-EditAccountForm button:hover,
+.woocommerce-ResetPassword button:hover{
+    background-color: transparent !important;
+    color: #0f294f !important;
+}
+.woocommerce-form-login{
+    width: 50%;
+}
+header.woocommerce-Address-title{
+    background: transparent !important;
+}
+@media only screen and (max-width:991px){
+    .woocommerce-form-login{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:768px){
+    .page-id-435 .modal-dialog{
+        width: 600px;
+        max-width: 600px;
+        margin: 30px auto;
+    }
+    .page-id-435 .modal .close{
+        margin-top: 7px;
+        margin-right: 10px;
+    }
+    .page-id-435 .modal-header{
+        position: relative;
+    }
+    .page-id-435 .modal-title{
+        width: 100%;
+    }
+    .page-id-435 button{
+        position: absolute;
+        content: '';
+        right: 20px;
+        border: none;
+        background: transparent;
+        top: 22px;
+        font-size: 21px;
+        color: #000;
+        font-weight: 700;
+        text-shadow: 0 1px 0 #fff;
+        opacity: 0.2;
+        padding: 0 !important;
+        margin: 0px !important;
+    }
+    .page-id-435 button:hover{
+        opacity: 0.5;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1199px){
+    .content-header a span, .content-header a{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .content-header a img{
+        margin: 0 auto;
+        float: none;
+    }
+}
+@media only screen and (max-width:767px){
+    .proposal button{
+        margin-bottom: 30px;
+    }
+    .content-sidebar ul{
+        padding: 0;
+    }
+    .class-content .nav-pills li{
+        width: 100%;
+    }
+    .content-map form input,
+    .content-map form button{
+        width: 100% !important;
+    }
+    .courses-tabs .nav-tabs li{
+        width: 100%;
+    }
+    .classes-table thead{
+        display: none;
+    }
+    .classes-table tbody tr{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .classes-table tbody td{
+        padding: 8px 10px 8px 100px !important;
+        border-bottom: solid 1px #eee;
+        width: 100%;
+        display: block;
+        position: relative;
+        text-align: left;
+        box-sizing: inherit !important;
+    }
+    .classes-table tbody td:before{
+        position: absolute;
+        left: 15px;
+        top: 0;
+        width: 100px;
+        font-weight: 700;
+        content: attr(title);
+        padding: 8px 0;
+        color: #00B1CF;
+    }
+}

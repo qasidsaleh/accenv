@@ -1,0 +1,104 @@
+/*--search Form--*/
+.search-form{
+	float: right;
+	position: relative;
+	width: 48px;
+}
+.home .search-form{
+	border: 0 !important;
+}
+.search-form .input{
+	width: 250px;
+	background: rgba(0,0,0,1);
+	height: 100%;
+	z-index: 99;
+	padding:22px 30px 22px 15px;
+	color: #fff;
+	border: 0;
+}
+.search-form .input::-webkit-input-placeholder { color: #fff;}
+.search-form .input:-moz-placeholder {color: #fff;}
+.search-form .input::-moz-placeholder {
+	color: #fff;
+	opacity: 1;
+}
+.search-form .input:-ms-input-placeholder {color: #fff;}
+.search-form button[type=submit]{
+	width: 48px;
+	height: 42px;
+	display: block;
+	text-align: center;
+	line-height: 42px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #fff;
+	background: rgba(0,0,0,0.3);
+	font-size: 17px;
+	border: 0;
+}
+.search-form .field{
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 999;
+	transition:all linear 0.2s;
+	-webkit-transition:all linear 0.2s;
+	-ms-transition:all linear 0.2s;
+}
+.search-form.open .field{
+	opacity: 1;
+	visibility: visible;
+}
+.search-form a{
+	width: 48px;
+	height: 48px;
+	display: block;
+	text-align: center;
+	line-height: 44px;
+	font-size: 17px;
+	color: #fff;
+}
+.home .search-form a{color: #fff;}
+.home .fixed .search-form a{color: #219ebc;}
+.search-form a i{pointer-events: none;}
+.search-form a:hover { color: #314E79; text-decoration: none;}
+@media screen and (max-width:991px){
+	.home .search-form a{color: #fff;}
+}
+@media screen and (max-width:767px){
+	/*--search Form--*/
+	.search-form{
+		width: 100%;
+		float: none;
+		display: block;
+		margin:0;
+		height: 48px;
+		padding: 0;
+		position: absolute;
+		top: -48px;
+		left: 0;
+		right: 0;
+	}
+	.search-form a{display: none;}
+	.search-form .field{
+		width: 100%;
+		opacity: 1;
+		visibility: visible;
+		top: 0;
+		bottom: 0;
+	}
+	.search-form .input{
+		max-width: inherit;
+		width: calc(100% - 46px);
+		background: #626f85;
+	}
+	.search-form button[type=submit]{
+		height: 48px;
+		background: #626f85;
+		border-left: solid 1px #fff;
+	}
+}

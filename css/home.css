@@ -1,0 +1,345 @@
+@import url(fonts.css);
+@import url(header.css);
+@import url(footer.css);
+@import url(common.css);
+
+.carousel-indicators{
+	right: 0;
+	left: auto;
+}
+.carousel-indicators button{
+	background-color: #14243B;
+}
+.callToAction{
+    background: #009132;
+    padding: 14px 0;
+    color: #fff;
+}
+.callToAction .container{
+    background-color: transparent;
+}
+.callToAction .container p{
+    font-size: 26px;
+    line-height: 1.1;
+    margin: 0;
+    text-align: left;
+    align-self: center;
+}
+.callToAction .container a{
+    padding: 0px 22px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    background: none;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    cursor:pointer;
+    outline: 0;
+}
+.callToAction .container a:hover,.callToAction .container a:active{ 
+    background: #fff;
+    border: 1px solid #fff;
+    color:#009132 !important;
+    outline: 0;
+}
+.intro h1{
+    font: 50px/1.2 'Roboto Slab', serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+    color: #14243b;
+}
+.nav-pills{
+    width: 100%;
+    background: #eaebee;
+    margin: 0 0 28px !important;
+    border: none !important;
+}
+.nav-pills.nav-item{
+    width: 100%;
+}
+.nav-pills .nav-link{
+    display: block;
+    padding: 10px 15px;
+    line-height: 36px;
+    color: #666;
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    margin: 0;
+}
+.nav-pills .nav-link.active, 
+.nav-pills .show>.nav-link,
+.nav-pills .nav-link:hover{
+    color: #fff;
+    background: #6d788e;
+    display: block;
+    padding: 10px 15px;
+    line-height: 36px;
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    margin: 0;
+}
+.text ul{
+    list-style: none;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: hidden;
+}
+.text ul li{
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0 10px;
+    padding: 0 0 0 28px;
+    position: relative;
+}
+.text ul li:before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: #6d788e;
+    content: '';
+}
+.text ul li:after{
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background: #6d788e;
+    border: 1px solid #fff;
+    content: '';
+}
+.text ul li a{
+    color: #6d788e;
+    text-decoration: none;
+    font-size: 14px;
+}
+.text ul li a:hover{
+    text-decoration: underline;
+}
+.training-block{
+    padding: 50px 0;
+    background: #0f294f;
+    color: #fff;
+}
+.training-block h2{
+    font: 50px/1.2 'Roboto Slab', serif;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+    color: #fff;
+}
+.training-block .post{
+    color: #95a0b8;
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 0 0 30px;
+}
+.training-block .post img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 0 15px;
+}
+.training-block .post h3{
+    font: 24px/1.2 'Roboto Slab', serif;
+    padding: 0 0 15px;
+    margin: 0 0 15px;
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+}
+.training-block .post h3:after{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 48px;
+    background: #198bec;
+}
+.training-block .post.ota1 h3:after{
+    background: #198bec;
+}
+.training-block .post.ota2 h3:after{
+    background: #009132;
+}
+.training-block .post.ota3 h3:after{
+    background: #f1a116;
+}
+.training-block .post.ota4 h3:after{
+    background: #fa4301;
+}
+.training-block .post.ota5 h3:after{
+    background: #ec28ba;
+}
+.training-block .post.ota6 h3:after{
+    background: #0161b7;
+}
+.training-block .post .readmore{
+    color: #95a0b8;
+    text-decoration: none;
+}
+.training-block .post .readmore:hover{
+    text-decoration: underline;
+}
+.two-columns h3{
+    font: 35px/1.2 'Roboto Slab', serif;
+    font-weight: bold;
+    margin: 0 0 20px;
+    position: relative;
+    color: #14243b;
+}
+.news-posts .post {
+    margin: 0 0 20px;
+    overflow: hidden;
+    max-width: 458px;
+}
+.news-posts .post a{
+    color: #000;
+    text-decoration: none;
+}
+.news-posts .post a:hover{
+    text-decoration: underline;
+}
+.news-posts .post time{
+    font-size: 11px;
+    line-height: 1.2;
+    color: #666;
+}
+.news-posts .latest-post li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.news-posts .latest-post li a{
+    color: #000;
+}
+.fc-daygrid-day-events .fc-event-title{
+    overflow: inherit;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    width: 120px;
+    white-space: break-spaces;
+    background: #bbb;
+    padding: 5px;
+    color: #000;
+    font-weight: 300;
+    font-size: 11px;
+    text-transform: none;
+    z-index: 999;
+    display: none;
+}
+.fc .fc-daygrid-day-events .fc-daygrid-event:hover{
+    background-color: transparent;
+    z-index: 99 !important;
+}
+.fc .fc-daygrid-day-events .fc-daygrid-event:hover .fc-event-title{
+    display: block;
+}
+.fc-popover-body .fc-daygrid-event-harness:first-child{
+    display: none;
+}
+.projects{
+    background-image: url('../images/projects-bg.jpg');
+    background-size: 100% 100%;
+}
+.projects h2{
+    font: 50px/1.2 'Roboto Slab', serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+    color: #14243b;
+}
+.projects .item span{
+    font-family:'Roboto', serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #14243b;
+    display: block;
+}
+.projects .item p{
+    font-family:'Roboto', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+}
+.projects .item a{
+    font-family:'Roboto', serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px 30px;
+    background-color: #0f294f;
+    border:solid 2px #0f294f;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+.projects .item a:hover{
+    background-color: transparent;
+    color: #0f294f; 
+}
+.projects .owl-nav button{
+    width: 45px;
+    height: 45px;
+    background-color: #fff !important;
+    border-radius: 50%;
+}
+.projects .owl-nav button:first-child{
+    position: absolute;
+    content: '';
+    left: -25px;
+    top: 25%;
+}
+.projects .owl-nav button:last-child{
+    position: absolute;
+    content: '';
+    right: -25px;
+    top: 25%;
+}
+
+@media only screen and (max-width:991px){
+    .projects .owl-nav button:first-child{
+        left: 0;
+    }
+    .projects .owl-nav button:last-child{
+        right: 0;
+    }
+    br{
+        display: none;
+    }
+    .intro h1{
+        font-size: 40px;
+    }
+    .tab-content .text{
+        margin-top: 30px;
+    }
+    .training-block .post h3{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width:767px){
+    .carousel-item{
+        width: 150%;
+        margin: 0 -25%;
+    }
+    .nav-pills li,
+    .text ul li{
+        width: 100%;
+    }
+    .navbar-toggler-icon {
+        display: block;
+        background-image: none !important;
+        height: auto;
+        border: solid 1px #fff;
+        margin: 6px 0;
+    }
+}

@@ -1,0 +1,123 @@
+#custom_dashboard_widget1 .inside,
+#custom_dashboard_widget2 .inside,
+#custom_dashboard_widget3 .inside,
+#custom_dashboard_widget4 .inside,
+#custom_dashboard_widget5 .inside{
+	padding: 0;
+}
+#custom_dashboard_widget1{background-color: #00c0ef;}
+#custom_dashboard_widget2{background-color: #00a65a;}
+#custom_dashboard_widget3{background-color: #f39c12;}
+#custom_dashboard_widget4{background-color: #f56954;}
+#custom_dashboard_widget5{background-color: #0073b7;}
+#custom_dashboard_widget1 h1,
+#custom_dashboard_widget2 h1,
+#custom_dashboard_widget3 h1,
+#custom_dashboard_widget4 h1,
+#custom_dashboard_widget5 h1{
+	font-size: 38px;
+	font-weight: bold;
+	color: #fff;
+	padding: 0 10px;
+}
+#custom_dashboard_widget1 .postbox-header,
+#custom_dashboard_widget2 .postbox-header,
+#custom_dashboard_widget3 .postbox-header,
+#custom_dashboard_widget4 .postbox-header,
+#custom_dashboard_widget5 .postbox-header,
+.wp-admin.post-type-product .woocommerce-layout__header-heading,
+#inventory_product_data ._manage_stock_field{
+	display: none !important;
+}
+#custom_dashboard_widget1 h2,
+#custom_dashboard_widget2 h2,
+#custom_dashboard_widget3 h2,
+#custom_dashboard_widget4 h2,
+#custom_dashboard_widget5 h2{
+	font-weight: bold;
+	color: #fff;
+	padding: 10px;
+	font-size: 18px;
+}
+#custom_dashboard_widget1 a,
+#custom_dashboard_widget2 a,
+#custom_dashboard_widget3 a,
+#custom_dashboard_widget4 a,
+#custom_dashboard_widget5 a{
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.15);
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	padding: 5px 0;
+	text-decoration: none;
+}
+/*.acf-field-61d6e66f5429d Stock Status Field*/
+.wc-customer-user + .order_data_column{
+  width:100% !important;   
+}
+#edittag .term-parent-wrap,
+#edittag .term-description-wrap,
+#edittag .term-display-type-wrap,
+#edittag .term-thumbnail-wrap,
+#woocommerce-product-data .postbox-header,
+#woocommerce-product-data .product_data_tabs li.shipping_options,
+#woocommerce-product-data .product_data_tabs li.linked_product_options,
+#woocommerce-product-data .product_data_tabs li.attribute_options,
+#woocommerce-product-data .product_data_tabs li.variations_options,
+#woocommerce-product-data .product_data_tabs li.advanced_options,
+#woocommerce-product-data .product_data_tabs li.marketplace-suggestions_options,
+#general_product_data ._sale_price_field,
+#inventory_product_data ._sku_field,
+#inventory_product_data ._backorders_field,
+#inventory_product_data ._low_stock_amount_field,
+#inventory_product_data ._sold_individually_field,
+#poststuff #Certificationsdiv,
+#woocommerce-product-data #inventory_product_data .stock_fields .woocommerce-help-tip,
+.woocommerce-page #posts-filter .tablenav.top #dropdown_product_type,
+.woocommerce-page #posts-filter .tablenav.top #dropdown_product_type + select,
+.acf-field-61d6e66f5429d,
+.acf-field-61d85cbdddf04,
+.acf-field-61d85ce4b5959,
+.acf-field-61d7175925f9d,
+.acf-field-61defc352dc7d,
+.acf-field-61defc543e23c,
+.acf-field-61defc5f3e23d,
+.taxonomy-product_cat .term-parent-wrap,
+.taxonomy-product_cat .term-description-wrap,
+.taxonomy-product_cat .term-display-type-wrap,
+.taxonomy-product_cat .term-thumbnail-wrap,
+.taxonomy-Venues .term-parent-wrap,
+.taxonomy-Venues .term-description-wrap,
+.taxonomy-Course .term-parent-wrap,
+.taxonomy-Course .term-description-wrap,
+.post-type-product #titlediv,
+/*.type-attendees span.trash,*/
+.post-type-attendees #delete-action,
+.post-type-attendees #titlediv input,
+.post-type-attendees #titlediv label,
+.post-type-attendees #titlediv .inside,
+.post-type-supervisors #titlediv input,
+.post-type-supervisors #titlediv label,
+.post-type-supervisors #titlediv .inside,
+.acf-field-61e68def1aee3,
+.post-type-product .page-title-action + .page-title-action,
+.post-type-attendees .page-title-action,
+.post-type-supervisors .page-title-action,
+#postbox-container-1 #side-sortables #submitdiv + .postbox,
+.type-product .column-name strong{
+  display:none !important;
+}
+.table-view-list .row-title{
+	pointer-events: none;
+}
+.taxonomy-Venues #custom_item_lVfE1 a,
+.taxonomy-product_cat #custom_item_Oz3vL a,
+.taxonomy-Course #separator_kaWnV + li a{
+	background: #e14d43 !important;
+}
+.taxonomy-Venues #menu-posts-product a,
+.taxonomy-product_cat #menu-posts-product a,
+.taxonomy-Course #menu-posts-product a{
+	background-color: transparent !important;
+}
